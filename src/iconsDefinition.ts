@@ -26,10 +26,9 @@ const iconsList: string[] = fs.readdirSync(paths.svgs).map(icon => {
  * @param path {String} is the filename path
  */
 class Icon {
-	private iconName: string;
 	constructor(path: string) {
-		this.iconName = '_file_' + path;
-		this[this.iconName] = {
+		const iconName = '_file_' + path;
+		this[iconName] = {
 			iconPath: `./svgs/${path}.svg`
 		};
 	}
