@@ -1,10 +1,5 @@
 import * as fs from 'fs';
-import * as path from 'path';
-
-/**
- * Set the svgs source path
- */
-const svgsPath = path.resolve(__dirname, '../build/svgs');
+import { paths } from './paths';
 
 /**
  * Remove the extension from a file name (eg. "file.svg")
@@ -18,7 +13,7 @@ const removeFileExtension = (fileName: string) => {
  * Get all the svg icons from the svgs
  * source path and remove the file extension
  */
-const iconsList: string[] = fs.readdirSync(svgsPath).map(icon => {
+const iconsList: string[] = fs.readdirSync(paths.svgs).map(icon => {
 	if (icon.match(/\.svg$/i)) {
 		return removeFileExtension(icon);
 	}

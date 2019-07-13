@@ -1,15 +1,7 @@
 import * as download from 'download-git-repo';
 import * as fs from 'fs-extra';
-import * as path from 'path';
+import { paths } from './paths';
 import themeScheme from './themeScheme';
-
-/**
- * Define paths
- */
-const paths = {
-	build: path.join(__dirname, '../build'),
-	src: path.join(__dirname, '.')
-};
 
 /**
  * Download the svgs source files from the
