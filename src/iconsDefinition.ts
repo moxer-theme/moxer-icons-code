@@ -4,7 +4,25 @@ import * as path from 'path';
 /**
  * Set the svgs source path
  */
-const svgsPath = path.resolve(__dirname, './svgs');
+const svgsPath = path.resolve(__dirname, '../build/svgs');
+
+/**
+ * Remove the extension from a file name (eg. "file.svg")
+ * @param fileName {string} Filename string
+ */
+const removeFileExtension = (fileName: string) => {
+	return fileName.replace(/\.[^/.]+$/, '');
+};
+
+/**
+ * Get all the svg icons from the svgs
+ * source path and remove the file extension
+ */
+const iconsList: string[] = fs.readdirSync(svgsPath).map(icon => {
+	if (icon.match(/\.svg$/i)) {
+		return removeFileExtension(icon);
+	}
+});
 
 /**
  * Define the Icon object constructor
@@ -21,25 +39,6 @@ class Icon {
 		};
 	}
 }
-
-/**
- * Remove the extension from a file name (eg. "file.svg")
- * @param fileName {string} Filename string
- */
-const removeFileExtension = (fileName: string) => {
-	return fileName.replace(/\.[^/.]+$/, '');
-};
-
-/**
- * Get all the svg icons from the svgs
- * source path and remove the file extension
- */
-const iconsList: string[] = fs.readdirSync(svgsPath).map(icon => {
-	const isSvg = RegExp(/\.svg$/i);
-	if (isSvg) {
-		return removeFileExtension(icon);
-	}
-});
 
 /**
  * For each files found in `iconsList`
