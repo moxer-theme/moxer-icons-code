@@ -1,0 +1,27 @@
+/* tslint:disable */
+export const folderNames = {
+	// ci: '_folder_ci',
+	// test: '_folder_test',
+	// tests: '_folder_test',
+	// __test__: '_folder_test',
+	// __tests__: '_folder_test',
+	// node_modules: '_folder_node',
+	// assets: '_folder_assets',
+	// bower_components: '_folder_bower',
+	// js: '_folder_js',
+	// css: '_folder_css',
+	// style: '_folder_style',
+	// sass: '_folder_sass',
+	// scss: '_folder_sass',
+	// src: '_folder_src',
+	// source: '_folder_src',
+	// images: '_folder_images',
+	// '.git': '_folder_git',
+	// '.github': '_folder_github',
+	// '.vscode': '_folder_vscode',
+	// '.gulp': '_folder_gulp',
+	// gulp: '_folder_gulp',
+	// build: '_folder_dist',
+	// dist: '_folder_dist',
+	// out: '_folder_dist'
+};
