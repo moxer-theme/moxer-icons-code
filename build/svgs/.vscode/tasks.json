@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"command": "npm",
+	"type": "shell",
+	"presentation": {
+		"reveal": "always"
+	},
+	"tasks": [{
+		"group": "build",
+		"label": "build",
+		"args": ["start"]
+	}]
+}
