@@ -1,9 +1,10 @@
 /* tslint:disable */
 export const fileExtensions = {
+	ai: '_file_ai',
+	applescript: '_file_applescript',
 	'module.ts': '_file_angular',
 	'module.js': '_file_angular',
 	'module.dart': '_file_angular',
-	'ng-template': '_file_angular',
 	'component.ts': '_file_angular-component',
 	'component.js': '_file_angular-component',
 	'component.dart': '_file_angular-component',
@@ -27,7 +28,11 @@ export const fileExtensions = {
 	'resolver.dard': '_file_angular-resolver',
 	'routing.ts': '_file_angular-routing',
 	'routing.js': '_file_angular-routing',
-	'routing.dart': '_file_angular-routing'
+	'routing.dart': '_file_angular-routing',
+	cs: '_file_csharp',
+	csx: '_file_csharp',
+	coffee: '_file_coffee',
+	css: '_file_css'
 	// patch: '_file_git',
 	// svelte: '_file_svelte',
 	// tf: '_file_terraform',

@@ -1,7 +1,16 @@
 /* tslint:disable */
 export const fileNames = {
 	'angular-cli.json': '_file_angular',
-	'.angular-cli.json': '_file_angular'
+	'.angular-cli.json': '_file_angular',
+	'.bowerrc': '_file_bower',
+	'bower.json': '_file_bower',
+	'.gitattributes': '_file_git',
+	'.gitconfig': '_file_git',
+	'.gitignore': '_file_git',
+	'.gitmodules': '_file_git',
+	'.gitkeep': '_file_git',
+	'.mailmap': '_file_git',
+	license: '_file_license'
 	// 'nuxt.config.js': '_file_nuxtconfig',
 	// 'vue.config.js': '_file_vue',
 	// '.browserslistrc': '_file_browserlist',

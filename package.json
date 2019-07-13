@@ -27,10 +27,12 @@
 		"Other"
 	],
 	"keywords": [
-		"VSCode",
-		"Themes",
+		"multi-root",
+		"theme",
+		"icon-theme",
 		"icons",
-		"moxer"
+		"moxer",
+		"colorful"
 	],
 	"activationEvents": [
 		"*"

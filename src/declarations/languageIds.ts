@@ -1,11 +1,18 @@
 /* tslint:disable */
 export const languageIds = {
+	svelte: '_file_svelte',
 	'ng-template': '_file_angular',
-	git: '_file_git',
-	diff: '_file_git',
 	'git-commit': '_file_git',
 	'git-rebase': '_file_git',
-	ignore: '_file_git'
+	applescript: '_file_applescript',
+	csharp: '_file_csharp',
+	coffeescript: '_file_coffee',
+	css: '_file_css'
+	// git: '_file_git',
+	// diff: '_file_git',
+	// 'git-commit': '_file_git',
+	// 'git-rebase': '_file_git',
+	// ignore: '_file_git'
 	// haxe: '_file_haxe',
 	// hxml: '_file_haxe',
 	// polymer: '_file_polymer',
