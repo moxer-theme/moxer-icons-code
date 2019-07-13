@@ -4,7 +4,7 @@ import * as path from 'path';
 /**
  * Set the svgs source path
  */
-const svgsPath = path.resolve(__dirname, '../build/svgs');
+const svgsPath = path.resolve(__dirname, './svgs');
 
 /**
  * Define the Icon object constructor

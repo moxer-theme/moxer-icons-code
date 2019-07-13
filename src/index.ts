@@ -22,6 +22,7 @@ if (!fs.existsSync(paths.build)) {
  * Copy all the icons to the build
  * directory in order to publish them
  */
+<<<<<<< HEAD
 fs.copy(`${paths.src}/svgs`, `${paths.build}/svgs`)
 	.then(() => console.log("SVG's copied to /build"))
 	.catch(err => console.error(err));

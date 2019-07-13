@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="angular-routing">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<circle id="Ellipse" cx="12" cy="12" r="12" fill="#212431"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="angular">
+<path id="Shape" d="M12 -3L-2 1.98L0.135338 20.445L12 27L23.8647 20.445L26 1.98L12 -3Z" fill="#2ECC71"/>
+<path id="Shape_2" opacity="0.235224" d="M12 -3V0.33V0.315V15.51V27L23.8647 20.445L26 1.98L12 -3Z" fill="#343944"/>
+<path id="Shape_3" fill-rule="evenodd" clip-rule="evenodd" d="M6.89203 16.734L12 4.989L17.0904 16.734H15.1859L14.1591 14.106H9.82341L8.79655 16.734H6.89203ZM12 8.805L10.508 12.486H13.492L12 8.805Z" fill="white"/>
+</g>
+<path id="&#226;&#157;&#175;" fill-rule="evenodd" clip-rule="evenodd" d="M22 11.9979L19.6509 15H18L20.3491 11.9979L18 9H19.6509L22 11.9979Z" fill="white"/>
+<path id="&#226;&#157;&#175; copy 2" fill-rule="evenodd" clip-rule="evenodd" d="M2 11.9979L4.34914 15H6L3.65086 11.9979L6 9H4.34914L2 11.9979Z" fill="white"/>
+</g>
+</g>
+</svg>

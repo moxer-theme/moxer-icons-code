@@ -47,8 +47,7 @@
 	"scripts": {
 		"lint": "tslint --fix -c tslint.json 'src/**/*.ts'",
 		"precommit": "yarn lint",
-		"build": "tsc src/index.ts",
-		"prestart": "rimraf build/svgs && git subtree add --prefix build/svgs git@github.com:moxer-theme/moxer-icons.git master --squash",
+		"prestart": "tsc src/index.ts",
 		"start": "node src/index.js"
 	},
 	"devDependencies": {
@@ -61,7 +60,6 @@
 	},
 	"dependencies": {
 		"fs-extra": "8.1.0",
-		"prettier": "1.18.2",
-		"rimraf": "2.6.3"
+		"prettier": "1.18.2"
 	}
 }

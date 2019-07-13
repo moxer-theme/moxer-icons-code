@@ -1,0 +1,15 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ai">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<circle id="Ellipse" cx="12" cy="12" r="12" fill="#212431"/>
+</mask>
+<g mask="url(#mask0)">
+<g id="Group">
+<path id="Shape" d="M12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1Z" fill="#81360E" stroke="#F4BF75" stroke-width="2"/>
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M15.1696 8.77067C15.401 8.77067 15.598 8.68711 15.7606 8.52C15.9233 8.35289 16.005 8.15822 16.0059 7.936C16.0059 7.69956 15.9241 7.50178 15.7606 7.34267C15.5971 7.18356 15.4001 7.10356 15.1696 7.10267C14.9391 7.10178 14.7456 7.18178 14.5891 7.34267C14.4325 7.50356 14.3542 7.70133 14.3542 7.936C14.3542 8.17067 14.4325 8.36845 14.5891 8.52933C14.7456 8.69022 14.9391 8.77022 15.1696 8.76933V8.76933V8.77067Z" fill="#F4BF75"/>
+<path id="Path_2" fill-rule="evenodd" clip-rule="evenodd" d="M14.3751 9.5H15.9654V15.6253H14.3751V9.5V9.5Z" fill="#F4BF75"/>
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M11.4592 13.5627H9.29875L9.29745 13.564L8.70645 15.6267H7.23874L9.31832 8.376V7.584H11.2961L13.6614 15.6253H12.0307L11.4592 13.5627ZM11.1539 12.1667L10.3594 9H10.3581L9.5636 12.1667H11.1539Z" fill="#F4BF75"/>
+</g>
+</g>
+</g>
+</svg>
