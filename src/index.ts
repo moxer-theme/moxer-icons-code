@@ -1,3 +1,4 @@
+import * as download from 'download-git-repo';
 import * as fs from 'fs-extra';
 import * as path from 'path';
 import themeScheme from './themeScheme';
@@ -10,21 +11,23 @@ const paths = {
 	src: path.join(__dirname, '.')
 };
 
+const downloadIcons = () => {
+	download('moxer-theme/moxer-icons', 'build/svgs', err => {
+		console.log(err ? 'Error' : 'Success');
+	});
+};
+
 /**
  * Checl if the build folder exist.
  * If not, create it.
  */
 if (!fs.existsSync(paths.build)) {
 	fs.mkdirSync(paths.build);
+	downloadIcons();
+} else {
+	fs.emptyDir(paths.build + '/svgs');
+	downloadIcons();
 }
-
-/**
- * Copy all the icons to the build
- * directory in order to publish them
- */
-fs.copy(`${paths.src}/svgs`, `${paths.build}/svgs`)
-	.then(() => console.log("SVG's copied to /build"))
-	.catch(err => console.error(err));
 
 /**
  * Build the icons theme and write the

@@ -59,6 +59,7 @@
 		"vscode": "1.1.35"
 	},
 	"dependencies": {
+		"download-git-repo": "2.0.0",
 		"fs-extra": "8.1.0",
 		"prettier": "1.18.2"
 	}
