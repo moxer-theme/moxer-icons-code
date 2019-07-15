@@ -7,7 +7,15 @@ export const languageIds = {
 	applescript: '_file_applescript',
 	csharp: '_file_csharp',
 	coffeescript: '_file_coffee',
-	css: '_file_css'
+	css: '_file_css',
+	d: '_file_dlang',
+	dscript: '_file_dlang',
+	dml: '_file_dlang',
+	diet: '_file_dlang',
+	dockerfile: '_file_docker',
+	erlang: '_file_erlang',
+	go: '_file_go',
+	dot: '_file_graphviz'
 	// git: '_file_git',
 	// diff: '_file_git',
 	// 'git-commit': '_file_git',
