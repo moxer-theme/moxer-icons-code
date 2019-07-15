@@ -15,7 +15,8 @@ export const languageIds = {
 	dockerfile: '_file_docker',
 	erlang: '_file_erlang',
 	go: '_file_go',
-	dot: '_file_graphviz'
+	dot: '_file_graphviz',
+	haskell: '_file_haskell'
 	// git: '_file_git',
 	// diff: '_file_git',
 	// 'git-commit': '_file_git',

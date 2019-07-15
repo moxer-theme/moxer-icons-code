@@ -47,7 +47,8 @@ export const fileExtensions = {
 	erl: '_file_erlang',
 	emakerfile: '_file_erlang',
 	go: '_file_go',
-	gv: '_file_graphviz'
+	gv: '_file_graphviz',
+	hs: '_file_haskell'
 	// patch: '_file_git',
 	// svelte: '_file_svelte',
 	// tf: '_file_terraform',
