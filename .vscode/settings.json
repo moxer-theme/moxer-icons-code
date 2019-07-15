@@ -8,5 +8,6 @@
 		"**/node_modules": true,
 		"src/index.js": true,
 		"**/*.js": true
-	}
+	},
+	"python.pythonPath": "/usr/bin/python"
 }

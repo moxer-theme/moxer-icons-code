@@ -24,8 +24,9 @@ export const fileNames = {
 	'gulpfile.ts': '_file_gulp',
 	'gulpfile.babel.js': '_file_gulp',
 	'gulpfile.babel.coffee': '_file_gulp',
-	'gulpfile.babel.ts': '_file_gulp'
-	// {
+	'gulpfile.babel.ts': '_file_gulp',
+	'package.json': '_file_npm',
+	'package-lock.json': '_file_package-lock'
 	//    icon: 'docker2',
 	//    extensions: ['.dockerignore'],
 	//    filenamesGlob: [
@@ -106,12 +107,12 @@ export const fileNames = {
 	// 'gulpfile.babel.js': '_file_gulp',
 	// 'gulpfile.babel.ts': '_file_gulp',
 	// 'gulp-config.js': '_file_gulp',
-	// 'package.json': '_file_npm',
 	// 'gradle.properties': '_file_gradle',
 	// gradlew: '_file_gradle',
 	// '.jscsrc': '_file_json',
 	// '.jshintrc': '_file_json',
 	// '.jshintignore': '_file_settings',
+	// 'package.json': '_file_npm',
 	// '.npmignore': '_file_npm',
 	// '.npmrc': '_file_npm',
 	// 'tsconfig.json': '_file_json',

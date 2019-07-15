@@ -16,7 +16,22 @@ export const languageIds = {
 	erlang: '_file_erlang',
 	go: '_file_go',
 	dot: '_file_graphviz',
-	haskell: '_file_haskell'
+	haskell: '_file_haskell',
+	html: '_file_html',
+	java: '_file_java',
+	javascript: '_file_js',
+	juliamarkdown: '_file_julia',
+	julia: '_file_julia',
+	less: '_file_less',
+	markdown: '_file_markdown',
+	mdx: '_file_markdown',
+	php: '_file_php',
+	ruby: '_file_ruby',
+	rust: '_file_rust',
+	sass: '_file_sass',
+	scala: '_file_scala',
+	dotenv: '_file_settings'
+
 	// git: '_file_git',
 	// diff: '_file_git',
 	// 'git-commit': '_file_git',
