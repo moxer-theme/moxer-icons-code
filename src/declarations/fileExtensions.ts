@@ -265,7 +265,6 @@ export const fileExtensions = {
 	stylelintrc: '_file_stylelint',
 	stylelintignore: '_file_stylelint',
 	stylelintcache: '_file_stylelint',
-	'stylelint.config.js': '_file_stylelint',
 	'stylelintrc.js': '_file_stylelint',
 	'stylelintrc.json': '_file_stylelint',
 	'stylelintrc.yml': '_file_stylelint',

@@ -35,7 +35,12 @@ export const fileNames = {
 	CODEOWNERS: '_file_github',
 	'tsconfig.json': '_file_json',
 	'tslint.json': '_file_json',
-	'composer.lock': '_file_json'
+	'composer.lock': '_file_json',
+	'stylelint.config.js': '_file_stylelint',
+	'stylelint.config.ts': '_file_stylelint',
+	'stylelint.config.json': '_file_stylelint',
+	'stylelint.config.yml': '_file_stylelint',
+	'stylelint.config.yaml': '_file_stylelint'
 	// 'nuxt.config.js': '_file_nuxtconfig',
 	// 'vue.config.js': '_file_vue',
 	// '.browserslistrc': '_file_browserlist',
