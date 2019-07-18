@@ -11,9 +11,6 @@
 		"vscode": ">=1.36.0"
 	},
 	"preview": true,
-	"extensionPack": [
-		"equinusocio.moxer-theme"
-	],
 	"homepage": "https://github.com/moxer-theme/moxer-icons-code",
 	"repository": {
 		"type": "git",
@@ -44,13 +41,11 @@
 	"extensionKind": "ui",
 	"main": "./build/moxer-icons.json",
 	"contributes": {
-		"iconThemes": [
-			{
-				"id": "moxer-icons",
-				"label": "Moxer Icons",
-				"path": "./build/moxer-icons.json"
-			}
-		]
+		"iconThemes": [{
+			"id": "moxer-icons",
+			"label": "Moxer Icons",
+			"path": "./build/moxer-icons.json"
+		}]
 	},
 	"scripts": {
 		"lint": "tslint --fix -c tslint.json 'src/**/*.ts'",
