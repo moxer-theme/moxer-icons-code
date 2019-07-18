@@ -44,13 +44,11 @@
 	"extensionKind": "ui",
 	"main": "./build/moxer-icons.json",
 	"contributes": {
-		"iconThemes": [
-			{
-				"id": "moxer-icons",
-				"label": "Moxer Icons",
-				"path": "./build/moxer-icons.json"
-			}
-		]
+		"iconThemes": [{
+			"id": "moxer-icons",
+			"label": "Moxer Icons",
+			"path": "./build/moxer-icons.json"
+		}]
 	},
 	"scripts": {
 		"lint": "tslint --fix -c tslint.json 'src/**/*.ts'",
