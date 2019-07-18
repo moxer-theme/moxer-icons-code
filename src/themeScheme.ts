@@ -1,4 +1,5 @@
 import { fileExtensions } from './declarations/fileExtensions';
+import { fileFolders } from './declarations/fileFolders';
 import { fileNames } from './declarations/fileNames';
 import { folderNames } from './declarations/folderNames';
 import { folderNamesExpanded } from './declarations/folderNamesExpanded';
@@ -12,6 +13,8 @@ import iconDefinitions from './iconsDefinition';
 export default {
 	// Push the generated list of the icons
 	...iconDefinitions,
+	// Puch default folders and files icons
+	...fileFolders,
 	// Push file extension declarations
 	fileExtensions,
 	// Push file names declarations
