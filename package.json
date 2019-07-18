@@ -10,6 +10,7 @@
 	"engines": {
 		"vscode": ">=1.36.0"
 	},
+	"preview": true,
 	"extensionPack": ["equinusocio.moxer-theme"],
 	"homepage": "https://github.com/moxer-theme/moxer-icons-code",
 	"repository": {
