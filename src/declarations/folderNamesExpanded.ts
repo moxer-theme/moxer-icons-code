@@ -1,7 +1,12 @@
 /* tslint:disable */
 export const folderNamesExpanded = {
+	build: '_file_folder_dist_open',
+	dist: '_file_folder_dist_open',
+	out: '_file_folder_dist_open',
+	src: '_file_folder_src_open',
+	source: '_file_folder_src_open'
 	// ci: '_folder_ci_open',
-	// test: '_folder_test_open',
+	// test: '_folder_test_open',s
 	// tests: '_folder_test_open',
 	// __test__: '_folder_test_open',
 	// __tests__: '_folder_test_open',
