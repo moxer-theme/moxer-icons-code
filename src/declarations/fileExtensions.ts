@@ -332,7 +332,8 @@ export const fileExtensions = {
 	tf: '_file_terraform',
 	'graphqlconfig.yml': '_file_graphql',
 	'graphqlconfig.yaml': '_file_graphql',
-	mjml: '_file_mjml'
+	mjml: '_file_mjml',
+	nowignore: '_file_now'
 	// cabal: '_file_cabal',
 	// cfc: '_file_coldfusion',
 	// cfm: '_file_coldfusion',
