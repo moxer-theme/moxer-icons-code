@@ -331,7 +331,8 @@ export const fileExtensions = {
 	ex: '_file_elixir',
 	tf: '_file_terraform',
 	'graphqlconfig.yml': '_file_graphql',
-	'graphqlconfig.yaml': '_file_graphql'
+	'graphqlconfig.yaml': '_file_graphql',
+	mjml: '_file_mjml'
 	// cabal: '_file_cabal',
 	// cfc: '_file_coldfusion',
 	// cfm: '_file_coldfusion',
@@ -345,7 +346,6 @@ export const fileExtensions = {
 	// hx: '_file_haxe',
 	// zep: '_file_zephyr',
 	// mjs: '_file_node',
-	// mjml: '_file_mjml',
 	// scala: '_file_scala',
 	// asp: '_file_html',
 	// aspx: '_file_html',

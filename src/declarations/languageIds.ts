@@ -72,7 +72,8 @@ export const languageIds = {
 	javascriptreact: '_file_react',
 	proto3: '_file_protobuf',
 	elixir: '_file_elixir',
-	terraform: '_file_terraform'
+	terraform: '_file_terraform',
+	mjml: '_file_mjml'
 	// haxe: '_file_haxe',
 	// hxml: '_file_haxe',
 	// polymer: '_file_polymer',
