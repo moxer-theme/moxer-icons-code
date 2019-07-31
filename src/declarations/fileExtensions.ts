@@ -66,7 +66,7 @@ export const fileExtensions = {
 	nvmrc: '_file_node',
 	less: '_file_less',
 	md: '_file_markdown',
-	mdx: '_file_markdown',
+	mdx: '_file_mdx',
 	tmTheme: '_file_markup',
 	tmcolor: '_file_markup',
 	php: '_file_php',

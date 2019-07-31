@@ -12,22 +12,5 @@ export const folderNamesExpanded = {
 	test: '_file_folder_test_open',
 	tests: '_file_folder_test_open',
 	__test__: '_file_folder_test_open',
-	__tests__: '_file_folder_test_open'
-	// ci: '_folder_ci_open',
-	// bower_components: '_folder_bower_open',
-	// src: '_folder_src_open',
-	// source: '_folder_src_open',
-	// images: '_folder_images_open',
-	// js: '_folder_js_open',
-	// css: '_folder_css_open',
-	// style: '_folder_css_open',
-	// sass: '_folder_sass_open',
-	// scss: '_folder_scss_open',
-	// '.git': '_folder_git_open',
-	// '.github': '_folder_github_open',
-	// '.gulp': '_folder_gulp_open',
-	// '.vscode': '_folder_vscode_open',
-	// build: '_folder_dist_open',
-	// dist: '_folder_dist_open',
-	// out: '_folder_dist_open'
+	js: '_file_folder_js_open'
 };
