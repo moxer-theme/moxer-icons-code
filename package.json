@@ -61,7 +61,7 @@
 		"tslint": "5.18.0",
 		"tslint-config-prettier": "1.18.0",
 		"typescript": "3.3.1",
-		"vscode": "1.1.35"
+		"vscode": "1.1.36"
 	},
 	"dependencies": {
 		"download-git-repo": "2.0.0",
