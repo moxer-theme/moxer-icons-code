@@ -57,7 +57,7 @@
 	},
 	"devDependencies": {
 		"@types/fs-extra": "8.0.0",
-		"@types/node": "^12.6.2",
+		"@types/node": "^13.1.5",
 		"tslint": "5.18.0",
 		"tslint-config-prettier": "1.18.0",
 		"typescript": "3.3.1",
