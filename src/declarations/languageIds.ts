@@ -1,5 +1,6 @@
 /* tslint:disable */
 export const languageIds = {
+	nunjucks: '_file_nunjucks',
 	svelte: '_file_svelte',
 	'ng-template': '_file_angular',
 	'git-commit': '_file_git',
