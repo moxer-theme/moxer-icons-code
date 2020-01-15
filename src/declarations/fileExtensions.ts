@@ -1,5 +1,7 @@
 /* tslint:disable */
 export const fileExtensions = {
+	ipynb: '_file_jupyter',
+	njk: '_file_nunjucks',
 	ai: '_file_ai',
 	applescript: '_file_applescript',
 	ex: '_file_elixir',
