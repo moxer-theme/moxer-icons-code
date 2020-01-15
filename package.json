@@ -38,7 +38,7 @@
 	"activationEvents": [
 		"*"
 	],
-	"extensionKind": "ui",
+	"extensionKind": ["ui"],
 	"main": "./build/moxer-icons.json",
 	"contributes": {
 		"iconThemes": [
