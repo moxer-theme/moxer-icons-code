@@ -1,5 +1,6 @@
 /* tslint:disable */
 export const fileExtensions = {
+	'f#': '_file_fsharp',
 	ipynb: '_file_jupyter',
 	njk: '_file_nunjucks',
 	ai: '_file_ai',

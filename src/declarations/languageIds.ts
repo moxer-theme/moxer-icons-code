@@ -1,5 +1,6 @@
 /* tslint:disable */
 export const languageIds = {
+	fsharp: '_file_fsharp',
 	nunjucks: '_file_nunjucks',
 	svelte: '_file_svelte',
 	'ng-template': '_file_angular',
