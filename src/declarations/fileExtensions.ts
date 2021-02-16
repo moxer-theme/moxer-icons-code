@@ -36,6 +36,7 @@ export const fileExtensions = {
 	'routing.ts': '_file_angular-routing',
 	'routing.js': '_file_angular-routing',
 	'routing.dart': '_file_angular-routing',
+	dart: '_file_dart',
 	cs: '_file_csharp',
 	csx: '_file_csharp',
 	coffee: '_file_coffee',
