@@ -14,6 +14,7 @@ export const languageIds = {
 	coffeescript: '_file_coffee',
 	css: '_file_css',
 	d: '_file_dlang',
+	dart: '_file_dart',
 	dscript: '_file_dlang',
 	dml: '_file_dlang',
 	diet: '_file_dlang',
