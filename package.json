@@ -56,7 +56,7 @@
 		"precommit": "yarn lint",
 		"prebuild": "rm -rf build && tsc src/index.ts && yarn copy:icons",
 		"build": "node src/index.js",
-		"copy:icons": "mkdir -p build/svgs && cp -R src/svgs build/svgs",
+		"copy:icons": "mkdir -p build/svgs && cp -R src/svgs build",
 		"release": "git pull && standard-version --release-as minor && git push --follow-tags",
 		"release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
 		"release:major": "git pull && standard-version --release-as major && git push --follow-tags"
