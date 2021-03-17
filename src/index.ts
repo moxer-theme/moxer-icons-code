@@ -22,14 +22,5 @@ const writeTheme = (scheme: object) => {
 	);
 };
 
-/**
- * Checl if the build folder exist.
- * If not, create it.
- */
-// With Promises:
-fs.emptyDir(paths.build, err => {
-	if (err) {
-		return console.error(err);
-	}
-	writeTheme(themeScheme);
-});
+
+writeTheme(themeScheme);

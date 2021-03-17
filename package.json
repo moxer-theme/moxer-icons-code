@@ -54,9 +54,9 @@
 	"scripts": {
 		"lint": "tslint --fix -c tslint.json 'src/**/*.ts'",
 		"precommit": "yarn lint",
-		"prebuild": "tsc src/index.ts",
-		"build": "node src/index.js && yarn copy:icons",
-		"copy:icons": "cp -R src/svgs build",
+		"prebuild": "rm -rf build && tsc src/index.ts && yarn copy:icons",
+		"build": "node src/index.js",
+		"copy:icons": "mkdir -p build/svgs && cp -R src/svgs build/svgs",
 		"release": "git pull && standard-version --release-as minor && git push --follow-tags",
 		"release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
 		"release:major": "git pull && standard-version --release-as major && git push --follow-tags"
