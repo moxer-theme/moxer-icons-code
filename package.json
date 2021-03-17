@@ -54,8 +54,12 @@
 	"scripts": {
 		"lint": "tslint --fix -c tslint.json 'src/**/*.ts'",
 		"precommit": "yarn lint",
-		"prestart": "tsc src/index.ts",
-		"start": "node src/index.js"
+		"prebuild": "tsc src/index.ts",
+		"build": "node src/index.js && yarn copy:icons",
+		"copy:icons": "cp -R src/svgs build",
+		"release": "git pull && standard-version --release-as minor && git push --follow-tags",
+		"release:patch": "git pull && standard-version --release-as patch && git push --follow-tags",
+		"release:major": "git pull && standard-version --release-as major && git push --follow-tags"
 	},
 	"devDependencies": {
 		"@types/fs-extra": "8.0.1",
@@ -66,8 +70,8 @@
 		"vscode": "1.1.35"
 	},
 	"dependencies": {
-		"download-git-repo": "2.0.0",
 		"fs-extra": "8.1.0",
-		"prettier": "1.19.1"
+		"prettier": "1.19.1",
+		"standard-version": "9.1.1"
 	}
 }

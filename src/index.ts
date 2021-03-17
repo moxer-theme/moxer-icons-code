@@ -1,21 +1,6 @@
-import * as download from 'download-git-repo';
 import * as fs from 'fs-extra';
 import { paths } from './paths';
 import themeScheme from './themeScheme';
-
-/**
- * Download the svgs source files from the
- * moxer-theme/moxer-icons repository
- */
-const downloadIcons = (dest: string) => {
-	download('moxer-theme/moxer-icons', dest, err => {
-		console.log(
-			err ? 'Error downloading icons' : 'Icons downloaded successfully'
-		);
-		fs.remove(`${dest}/LICENSE`);
-		fs.remove(`${dest}/README.md`);
-	});
-};
 
 /**
  * Build the icons theme and write the
@@ -46,6 +31,5 @@ fs.emptyDir(paths.build, err => {
 	if (err) {
 		return console.error(err);
 	}
-	downloadIcons(paths.build);
 	writeTheme(themeScheme);
 });
