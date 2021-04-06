@@ -13,6 +13,7 @@ export const fileNames = {
 	'docker-compose.vs.debug': '_file_docker',
 	'docker-compose.vs.release': '_file_docker',
 	'docker-cloud': '_file_docker',
+	'.editorconfig': '_file_editorconfig',
 	emakefile: '_file_erlang',
 	'go.sum': '_file_go',
 	'go.mod': '_file_go',
