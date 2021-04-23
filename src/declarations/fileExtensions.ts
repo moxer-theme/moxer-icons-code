@@ -119,7 +119,7 @@ export const fileExtensions = {
 	'env.production': '_file_settings',
 	'env.build': '_file_settings',
 	buildignore: '_file_settings',
-	editorconfig: '_file_settings',
+	editorconfig: '_file_editorconfig',
 	jshintignore: '_file_settings',
 	sh: '_file_console',
 	ksh: '_file_console',
