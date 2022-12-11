@@ -15,5 +15,3 @@ tsconfig.json
 typings/**
 vsc-extension-quickstart.md
 package-lock.lock
-yarn.lock
-!build/

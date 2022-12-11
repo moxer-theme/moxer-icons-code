@@ -36,14 +36,10 @@
 		"moxer",
 		"colorful"
 	],
-	"activationEvents": [
-		"onStartupFinished"
-	],
 	"extensionKind": [
 		"ui",
 		"workspace"
 	],
-	"main": "./build/moxer-icons.json",
 	"contributes": {
 		"iconThemes": [
 			{

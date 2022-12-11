@@ -1,2 +1,6 @@
 {
+	"files.exclude": {
+		"src/index.js": true,
+		"**/*.js": true
+	},
 }
