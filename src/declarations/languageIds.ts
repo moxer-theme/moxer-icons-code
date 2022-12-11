@@ -4,6 +4,7 @@ export const languageIds = {
 	purescript: '_file_purescript',
 	dhall: '_file_dhall',
 	nimble: '_file_nimble',
+	prisma: '_file_prisma',
 	fsharp: '_file_fsharp',
 	nunjucks: '_file_nunjucks',
 	svelte: '_file_svelte',

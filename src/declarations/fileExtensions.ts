@@ -2,6 +2,7 @@
 export const fileExtensions = {
 	nim: '_file_nimble',
 	purs: '_file_purescript',
+	prisma: '_file_prisma',
 	dhall: '_file_dhall',
 	'f#': '_file_fsharp',
 	ipynb: '_file_jupyter',
