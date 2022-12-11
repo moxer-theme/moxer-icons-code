@@ -36,12 +36,12 @@
 		"colorful"
 	],
 	"activationEvents": [
-		"*"
+		"onStartupFinished"
 	],
 	"extensionKind": [
 		"ui"
 	],
-	"main": "./build/moxer-icons.json",
+	"main": "./README.md",
 	"contributes": {
 		"iconThemes": [
 			{
