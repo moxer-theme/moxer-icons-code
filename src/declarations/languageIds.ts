@@ -1,6 +1,8 @@
 /* tslint:disable */
 export const languageIds = {
 	nim: '_file_nimble',
+	purescript: '_file_purescript',
+	dhall: '_file_dhall',
 	nimble: '_file_nimble',
 	fsharp: '_file_fsharp',
 	nunjucks: '_file_nunjucks',

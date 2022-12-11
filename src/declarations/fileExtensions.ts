@@ -1,6 +1,8 @@
 /* tslint:disable */
 export const fileExtensions = {
 	nim: '_file_nimble',
+	purs: '_file_purescript',
+	dhall: '_file_dhall',
 	'f#': '_file_fsharp',
 	ipynb: '_file_jupyter',
 	njk: '_file_nunjucks',
