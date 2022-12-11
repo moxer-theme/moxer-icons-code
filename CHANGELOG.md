@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.9.6](https://github.com/moxer-theme/moxer-icons-code/compare/v5.9.5...v5.9.6) (2022-12-11)
+
 ### [5.9.5](https://github.com/moxer-theme/moxer-icons-code/compare/v5.9.4...v5.9.5) (2022-12-11)
 
 ### [5.9.4](https://github.com/moxer-theme/moxer-icons-code/compare/v5.9.3...v5.9.4) (2022-12-11)
