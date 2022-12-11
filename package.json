@@ -8,9 +8,10 @@
 	"author": "Mattia Astorino [@equinusocio]",
 	"icon": "logo.png",
 	"engines": {
-		"vscode": ">=1.36.0"
+		"node": ">=16",
+		"vscode": "^1.51.0"
 	},
-	"preview": true,
+	"preview": false,
 	"homepage": "https://github.com/moxer-theme/moxer-icons-code",
 	"repository": {
 		"type": "git",
@@ -39,7 +40,8 @@
 		"onStartupFinished"
 	],
 	"extensionKind": [
-		"ui"
+		"ui",
+		"workspace"
 	],
 	"main": "./build/moxer-icons.json",
 	"contributes": {
