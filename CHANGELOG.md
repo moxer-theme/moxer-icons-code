@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.9.0](https://github.com/moxer-theme/moxer-icons-code/compare/v5.8.0...v5.9.0) (2022-12-11)
+
+
+### Features
+
+* add purescript and dhall support ([59c1643](https://github.com/moxer-theme/moxer-icons-code/commit/59c16438149babc653a7dd872e2b4d8a923596fc)), closes [#43](https://github.com/moxer-theme/moxer-icons-code/issues/43)
+* add support for Prisma ([2702b77](https://github.com/moxer-theme/moxer-icons-code/commit/2702b777e51026f8f9e7a9bbffcf50b16e6add79))
+
+
+### Bug Fixes
+
+* remove angular specific icons to avoid frameworks collision ([2219761](https://github.com/moxer-theme/moxer-icons-code/commit/22197614676bd63f31f49dfebe4d5e5ba0fa5917)), closes [#44](https://github.com/moxer-theme/moxer-icons-code/issues/44)
+
 ## [5.8.0](https://github.com/moxer-theme/moxer-icons-code/compare/v5.7.2...v5.8.0) (2021-04-23)
 
 
