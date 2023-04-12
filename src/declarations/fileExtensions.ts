@@ -1,5 +1,6 @@
 /* tslint:disable */
 export const fileExtensions = {
+	astro: '_file_astro',
 	nim: '_file_nimble',
 	purs: '_file_purescript',
 	prisma: '_file_prisma',
