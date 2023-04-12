@@ -186,6 +186,7 @@ export const fileExtensions = {
 	smv: '_file_matlab',
 	xvc: '_file_matlab',
 	m: '_file_matlab',
+	c: '_file_c',
 	cc: '_file_cpp',
 	cpp: '_file_cpp',
 	'c++': '_file_cpp',

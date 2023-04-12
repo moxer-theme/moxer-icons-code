@@ -3,18 +3,12 @@
 <p align="center">From the Material Theme authors...<br><strong>Moxer Icons</strong> provides the biggest file icons theme for Visual Studio Code</p>
 <br><br>
 
-<p align="center"><strong>More icons coming!</strong></p>
-
-<p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons&ssr=false#review-details"><img src="https://vsmarketplacebadge.apphb.com/rating-star/Equinusocio.moxer-icons.svg?style=for-the-badge&colorA=F7CA57&colorB=F2AA08"/></a> <a href="https://marketplace.visualstudio.com/items?itemName=Equinusocio.moxer-icons"><img src="https://vsmarketplacebadge.apphb.com/downloads-short/Equinusocio.moxer-icons.svg?style=for-the-badge&colorA=74D56C&colorB=4BC74F&label=DOWNLOADS"/></a> <a href="https://a.paddle.com/v2/click/16413/37697?link=1227"><img src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20Course%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge"/></a>
-</p>
-
 ---
 
-- [Getting started](#Getting-started)
-	- [Installation](#Installation)
-		- [GitHub Repository Clone](#GitHub-Repository-Clone)
-- [Activate theme](#Activate-theme)
+- [Getting started](#getting-started)
+	- [Installation](#installation)
+		- [GitHub Repository Clone](#github-repository-clone)
+- [Activate theme](#activate-theme)
 
 ## Getting started
 
