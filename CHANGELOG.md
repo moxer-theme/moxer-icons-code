@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.10.0](https://github.com/moxer-theme/moxer-icons-code/compare/v5.9.7...v5.10.0) (2023-04-12)
+
+
+### Features
+
+* add astro file icon ([574b167](https://github.com/moxer-theme/moxer-icons-code/commit/574b167fc76b6d60e1d6b1ba5cd4e7e48b282992))
+
 ### [5.9.7](https://github.com/moxer-theme/moxer-icons-code/compare/v5.9.6...v5.9.7) (2022-12-11)
 
 ### [5.9.6](https://github.com/moxer-theme/moxer-icons-code/compare/v5.9.5...v5.9.6) (2022-12-11)
