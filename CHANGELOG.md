@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.11.0](https://github.com/moxer-theme/moxer-icons-code/compare/v5.10.0...v5.11.0) (2023-04-12)
+
+
+### Features
+
+* add C file icon ([a380e90](https://github.com/moxer-theme/moxer-icons-code/commit/a380e9062f7b1eec6f0d338bad9f6f162e2e2e91))
+
 ## [5.10.0](https://github.com/moxer-theme/moxer-icons-code/compare/v5.9.7...v5.10.0) (2023-04-12)
 
 
