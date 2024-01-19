@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.11.1](https://github.com/moxer-theme/moxer-icons-code/compare/v5.11.0...v5.11.1) (2024-01-19)
+
+
+### Features
+
+* add new elixir icon for eex and heex extensions ([b4781bf](https://github.com/moxer-theme/moxer-icons-code/commit/b4781bf0ecffd8a41ef4d5b40bc82a6d508124cd))
+
 ## [5.11.0](https://github.com/moxer-theme/moxer-icons-code/compare/v5.10.0...v5.11.0) (2023-04-12)
 
 
