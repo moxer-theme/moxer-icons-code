@@ -1,13 +1,18 @@
 {
 	"version": "2.0.0",
-	"command": "yarn",
-	"type": "shell",
-	"presentation": {
-		"reveal": "always"
-	},
-	"tasks": [{
-		"group": "build",
-		"label": "build",
-		"args": ["build"]
-	}]
-}
+	"tasks": [
+	  {
+		 "args": [
+			"run",
+			"build"
+		 ],
+		 "command": "npm",
+		 "label": "build",
+		 "group": {
+			"kind": "build",
+			"isDefault": true
+		 }
+	  }
+	]
+ }
+
