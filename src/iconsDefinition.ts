@@ -17,6 +17,8 @@ const iconsList: string[] = fs.readdirSync(paths.svgs).map(icon => {
 	if (icon.match(/\.svg$/i)) {
 		return removeFileExtension(icon);
 	}
+
+	return '';
 });
 
 /**
